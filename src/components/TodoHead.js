@@ -25,9 +25,6 @@ const TodoHeadBlock = styled.div`
     }
 `;
 
-
-
-
 function TodoHead() {
     return (
         <TodoHeadBlock>
