@@ -12,7 +12,7 @@ const TodoTemplateBlock = styled.div`
     margin-bottom:32px;
     background: #fff;
     border-radius:16px;
-    box-shadow:0 0 8px rgba(0,0,0,0.04)
+    box-shadow:0 0 12px rgba(0,0,0,0.04)
 `
 
 function TodoTemplate({ children }){
