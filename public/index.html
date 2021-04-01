@@ -15,5 +15,20 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+        function solution(s) {
+          var answer = '';
+          var arr = [];
+          arr = s.split('').sort().reverse();
+      ​
+          for(var i=0; i<arr.length; i++){
+              answer += arr[i];
+          }
+      ​
+          return answer;
+    }
+
+    solution('aspasp')
+    </script>
   </body>
 </html>
